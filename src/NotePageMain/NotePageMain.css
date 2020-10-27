@@ -1,0 +1,25 @@
+.NotePageMain {
+  padding: 8px;
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+}
+
+.Note__title {
+  font-family: var(--custom-font);
+  font-size: 24px;
+  padding-bottom: 8px;
+  margin: 0;
+  min-height: 24px;
+  color: #cacaca;
+}
+
+.NotePageMain__content {
+  display: flex;
+}
+
+div span {
+  font-size: 12px;
+}

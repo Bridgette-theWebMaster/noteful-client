@@ -1,0 +1,27 @@
+.NavCircleButton {
+  background-color: #cacaca;
+  border-radius: 30px;
+  border: 0;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  height: 60px;
+  border-radius: 120;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 60px;
+  padding: 14px 8px 8px;
+  margin-top: 14px;
+}
+
+form button[type="submit"]:hover {
+  background-color: #29862e;
+  color: white;
+  cursor: pointer;
+}
+
+.NavCircleButton:disabled {
+  background-color: grey;
+}
